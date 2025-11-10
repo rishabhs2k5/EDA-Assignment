@@ -1,1 +1,11 @@
-# EDA-Assignment
+Zomato Dataset: Exploratory Data Analysis and Feature EngineeringThis repository contains the code and data for an Exploratory Data Analysis (EDA) and Feature Engineering project on a global Zomato restaurant listing dataset. 
+The goal is to clean the data, uncover insights into restaurant trends, ratings, and costs, and prepare a robust dataset for subsequent machine learning model development.Project GoalThe primary objectives of this project are:Data Cleaning & Preprocessing: Handle missing values, correct data types, and resolve inconsistencies in the raw data.
+Exploratory Data Analysis (EDA): Visualize and analyze distributions, correlations, and key metrics such as average cost, rating, cuisine popularity, and country-wise trends.Feature Engineering: Create new, insightful features from the raw data (e.g., categorical encoding, location features, rating buckets) to enhance the predictive power of future machine learning models.
+DatasetsThe analysis utilizes the following datasets:File NameDescriptionzomato.csvThe main dataset containing restaurant listings, location details, cuisines, pricing, rating, and user votes.Country-Code.xlsx - Sheet1.csvA supplementary lookup table that maps Country Code to the Country name, essential for geo-analysis.
+Analysis NotebookThe entire analysis workflow is contained in the following Jupyter Notebook:1-eda-feature-engineering.ipynbThis notebook details every step of the project, from data ingestion and merging (using the country codes) to advanced feature engineering and visual analysis.
+Technologies and LibrariesThe project is built using Python and leverages the standard data science stack:Python 3.xJupyter Notebook (for the analysis environment)Pandas (for data manipulation and cleaning)NumPy (for numerical operations)Matplotlib (for basic visualizations)Seaborn (for enhanced statistical data visualization)How to Run the AnalysisTo replicate the analysis locally, follow these steps:
+Clone the repository:Bashgit clone <your-repo-link>
+cd <your-repo-name>
+Install dependencies:It is recommended to use a virtual environment.Bashpip install pandas numpy matplotlib seaborn jupyter
+Launch Jupyter Notebook:Bashjupyter notebook
+Open the notebook:Navigate to and open 1-eda-feature-engineering.ipynb and execute the cells sequentially.
